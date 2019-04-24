@@ -1,0 +1,11 @@
+{{! TODO: Use mustache templates like so }}
+{{! TODO: Combine with class in classes/output/report.php }}
+<table>
+    {{#coursecompletions}}
+        <tr>
+            <td><a href="{{courselink}}">{{coursename}}</a></td>
+            <td>{{completionstatus}}</td>
+            <td>{{timecompleted}}</td>
+        </tr>
+    {{/coursecompletions}}
+</table>
